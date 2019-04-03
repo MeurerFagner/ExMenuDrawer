@@ -9,6 +9,7 @@ import android.view.Menu
 import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
+import org.jetbrains.anko.browse
 import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast
 
@@ -56,6 +57,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             R.id.nav_tela1 -> {
                 startActivity<Tela1>()
+            }
+            R.id.nav_github ->{
+                browse("https://github.com/MeurerFagner/ExMenuDrawer")
             }
             R.id.nav_sair -> {
                 finish()

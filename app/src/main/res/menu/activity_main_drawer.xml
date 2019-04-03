@@ -19,6 +19,10 @@
     <item android:title="Ações">
         <menu>
             <item
+                    android:id="@+id/nav_github"
+                    android:icon="@drawable/ic_github"
+                    android:title="Repositório do Projeto" />
+            <item
                     android:id="@+id/nav_sair"
                     android:icon="@drawable/ic_exit_to_app_white_24dp"
                     android:title="Sair" />
